@@ -1,2 +1,3 @@
 # Personal-Website
-Trang Ngo
+My personal website, built while practicing webdevelopment concepts. 
+
