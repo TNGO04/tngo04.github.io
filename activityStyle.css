@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background: rgb(238,237,255);
+    background: radial-gradient(circle, rgba(238,237,255,1) 0%, rgba(252,233,250,0.773546918767507) 35%, rgba(231,251,255,1) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:0.5em;
+    color: maroon;
+}
+
+.outer-box {
+    display: inline;
+    border: 2px solid lightcoral;
+}
+
+h1 {
+    font-size: 50px;
+    color: maroon;
+}
+
+.hoop-image, .sling-image {
+    height: 300px;
+    width: auto;
+    filter: drop-shadow(0.00rem 0.35rem 0.4rem maroon);
+    padding:0.5em;
+}
+
+ul li {
+    list-style-position: inside;
+    font-size: 24px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#external-link {
+    color: maroon;
+}
