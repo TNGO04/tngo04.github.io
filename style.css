@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: radial-gradient(circle, rgba(238,237,255,1) 0%, rgba(252,233,250,0.773546918767507) 35%, rgba(231,251,255,1) 100%);
     display: flex;
     flex-direction: row;
@@ -15,15 +15,27 @@ body {
   display: flex;
 }
 
+.intro p {
+  font-size: 1.25em;
+  padding: 0px 250px;
+  text-align: justify;
+  line-height: 140%;
+}
+
+.main-page.container .intro h1 {
+  margin-bottom: 0px;
+}
+
 #about {
   font-weight: 700;
 }
 
 .main-page.container {
     flex-direction: column;
-    padding: 20px 50px;
+    align-items: center;
+    padding: 40px 50px;
     width: 65%;
-    height: 90vh;
+    height: auto;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 20px;
@@ -37,6 +49,7 @@ body {
     font-size: 3.5em;
     text-align: center;
     margin-bottom: 100px;
+
 }
 
 .timeline *{
