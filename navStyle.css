@@ -3,7 +3,7 @@
 }
 
 .navigation-bar {
-    width: 40vh;
+    width: 400px;
     height: 95vh;
     flex-direction: column;
     justify-content: space-between;
