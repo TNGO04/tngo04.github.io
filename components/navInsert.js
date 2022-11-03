@@ -6,3 +6,6 @@ fetch('/components/nav.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
+.then(
+
+)
