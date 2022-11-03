@@ -4,65 +4,53 @@
   display: flex;
 }
 
+.page-content .container {
+    flex-direction: column;
+}
+
 
 #projects {
     font-weight: 700;
 }
 
 
-
-
 .project.container {
     padding: 20px 20px;
     padding-left: 50px;
     justify-content: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     height: auto;
     line-height: 150%;
     gap: 100px;
 
-
 }
-
-.container.text-box {
-    text-indent: 15px;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    justify-content: center;
-    text-align: justify;
-
-}
-
 
 .page-content h1 {
-    font-size: 3em;
-    border-bottom: 1px solid rgb(115, 115, 116);
-    border-top: 1px solid rgb(115, 115, 116);
-    padding: 5px 10px 0px 10px;
-    line-height: 100%;
+    font-size: 3.5em;
     text-align: center;
-    margin-bottom: -10px;;
+    margin: 0px 100px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
 
 }
 
-.project img {
+.item.container {
+    flex-direction: row;
+    gap: 50px;
+}
+
+.description {
+    margin: auto 50px;
+}
+.item a img {
     width:auto;
     height: 225px;
     border-radius: 5%;
     border-style: groove;
 }
 
-.image-container {
-    padding-top: 30px;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 25px;
-}
 
 a {
     color: white;
