@@ -1,3 +1,3 @@
 # Personal-Website
-My personal website, built while practicing webdevelopment concepts. 
+My personal website, built from scratch with CSS, HTML, and a bit of Javascript. 
 
