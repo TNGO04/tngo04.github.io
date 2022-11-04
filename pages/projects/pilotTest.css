@@ -1,0 +1,23 @@
+
+
+.container {
+    display: flex;
+  }
+  
+  .page-content .container {
+      flex-direction: column;
+  }
+
+.page-content.container h1 {
+    font-size: 3em;
+}
+
+.page-content.container img {
+    width: 800px;
+}
+
+.page-content.container p {
+    margin: 0px 50px;
+    font-size: 1.25em;
+}
+  

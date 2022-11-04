@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Test Bench</title>
+    <link rel="stylesheet" href="./applicationTest.css">
+    <link rel='stylesheet' href='/components/page-content.css'>
+
+</head>
+<body>
+    <script id="replace_with_navbar" src="/components/navInsert.js"></script>
+
+    <div class="page-content container">
+      <h1>Application Testing Systems</h1>
+
+        <img src="/pages/projects/application/bench_1.png">
+        <img src="/pages/projects/application/Bench 2.png">
+
+        <p>Above are images of two of the 4 application testing systems I built for premilinary testing of customer wastewater at ZwitterCo. </p>
+
+        <img src="/pages/projects/application//P & ID.png">
+        <p>
+            I started by sketching a simple diagram (called Process and Instrumentation diagram) representing one system and its components, as well as the process 
+            flow and how all components are connected/interacted with one another. Based on this diagram, I can organize and figure out what the main equipment and instruments needed for the system, 
+            and understand the main requirements of the systems. I then researched on popular vendor websites and procured equipment that fit my criteria and the company's budget.
+        </p>
+
+        <img src="/pages/projects/application/cell.png">
+        <p>Not all components are procured, such as the membrane testing cell shown above. The membrane is sandwiched between two pieces of the cells, sealed by a custome O-ring (which I lasercut). 
+            I custom made the membrane cells using machine shop equipment (CNC mill) since we could not find ready made cells with reasonable costs and approriate design.</p>
+
+        <img src="/pages/projects/application/LabJack.png">
+        <p> The system is designed to be able to run unsupervised overnight, so it is almost fully automated and controlable remotely. We used a LabJack device for data acquisition and control by dealing with inputs from sensors and outputs to actuated devices. </p>
+        
+        <img src="/pages/projects/application/HMI.png">
+        <p> LabVIEW is a systems engineering software that can be used for industrial and laboratory automation. In this project, LabVIEW was used to create the front-end aspect (HMI to interact with users and display data) and the back-end 
+            (communicating with LabJack for I/O, data analysis and storage, signal processing, controls logic, exception handling). </p>
+            <img src="/pages/projects/application/block-diagram.png">
+            <p> It was difficult at first since as a Chemical Engineer, I did not have much experiences in LabVIEW, and it is a graphical programming interface so I was not as familiar with it since I have mostly coded only in C++ and Python before.
+            However, National Instruments provide pretty good documentation and tutorials online for me to self-learn how to program an automated system. In addition, by breaking down a large automation software into many small tasks to be achieved, the project was much less daunting, and I was able to successfully build the software for data acquisition, analysis, and automation.
+        </p>
+
+    </div>
+
+
+
+    <script src="/components/animation.js"></script>
+
+</body>
+</html>
+
+
