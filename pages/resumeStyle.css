@@ -1,0 +1,8 @@
+
+.container {
+    display: flex;
+}
+
+#resume {
+    font-weight: 700;
+}
