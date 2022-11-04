@@ -57,6 +57,7 @@ a {
 }
 
 
+
 .item.container{
 	position:relative;
 
@@ -87,4 +88,16 @@ button {
 	display:block;
 }
 
+.link.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+
+.description.container a {
+    color: #212227;
+    text-underline-offset: 5px;
+    font-style: italic;
+}
 
