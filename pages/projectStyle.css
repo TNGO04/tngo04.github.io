@@ -44,8 +44,8 @@
 .description {
     margin: auto 50px;
 }
-.item a img {
-    width:auto;
+.item.container img {
+    width: 275px;
     height: 275px;
     border-radius: 5%;
     border-style: groove;
@@ -55,3 +55,36 @@
 a {
     color: white;
 }
+
+
+.item.container{
+	position:relative;
+
+}
+.mydivoverlap{
+    position: relative;
+    z-index: 1;
+}
+.mybuttonoverlap{
+	position: absolute;
+    padding: 10px 16px;
+    font-size: 1.5em;
+    z-index: 2;
+    top: 120px;
+    display: none;
+    left: 120px;	
+
+}
+
+button {
+    background-color: #212227;
+    color:antiquewhite;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.item.container:hover .mybuttonoverlap{ 
+	display:block;
+}
+
+
