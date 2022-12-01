@@ -1,0 +1,53 @@
+
+.container {
+    display: flex;
+}
+
+.gallery.container {
+    display: block;
+    text-align: center;
+}
+
+.gallery.container p{
+    color: rgb(41, 41, 42);
+    font-weight: 800;
+}
+
+.gallery img.banner {
+    width: auto;
+    height: 250px;
+}
+
+.gallery img.logo {
+    width: auto;
+    height: 250px;
+}
+
+.gallery img.design {
+    width: auto;
+    height: 500px;
+}
+
+.gallery img.design.square {
+    width: auto;
+    height: 300px;
+}
+
+.gallery img.poster {
+    width: auto;
+    height: 500px;
+}
+
+.page-content h1 {
+    font-size: 3em;
+    border-bottom: 1px solid rgb(115, 115, 116);
+    padding: 5px 10px 10px 10px;
+    line-height: 100%;
+    text-align: center;
+
+
+}
+
+.page-content h2 {
+    color: rgb(41, 41, 42);
+}
