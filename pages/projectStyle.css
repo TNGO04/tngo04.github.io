@@ -41,11 +41,11 @@
 
 .description {
     margin: auto 50px;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
 }
 .item.container img {
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
     border-radius: 5%;
     border-style: groove;
 }
