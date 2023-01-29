@@ -2,6 +2,7 @@
 
 .container {
     display: flex;
+
   }
   
   .page-content .container {
@@ -13,11 +14,11 @@
 }
 
 .page-content.container img {
-    width: 800px;
+    width: 40vw;
 }
 
 .page-content.container p {
     margin: 0px 50px;
-    font-size: 1.25em;
+    font-size: 1rem;
 }
   

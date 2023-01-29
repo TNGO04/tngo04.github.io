@@ -9,13 +9,13 @@
 
 
 img.collage {
-    width: 600px;
+    width: 30vw;
     margin: auto;
 }
 
 
 .page-content h1 {
-    font-size: 3em;
+    font-size: 2rem;
     border-bottom: 1px solid rgb(115, 115, 116);
     padding: 5px 10px 10px 10px;
     line-height: 100%;
@@ -29,13 +29,14 @@ img.collage {
     justify-content: space-between;
     align-items: center;
     height: auto;
-    line-height: 150%;
-    gap: 50px;
+    line-height: 130%;
+    gap: 2rem;
+    font-size: 0.8rem;
 
 }
 
 .container.text-box {
-    text-indent: 15px;
+    text-indent: 0.5rem;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -45,17 +46,17 @@ img.collage {
 }
 
 #design .image-container img {
-    width:240px;
-    height:320px;
+    width:150px;
+    height:200px;
 }
 
 .image-container {
-    padding-top: 50px;
+    padding-top: 2rem;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .activity.container {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
 }
